@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div id="page-tag">
+  <h1 class="ps-lg-2">
+    <i class="fa fa-tag fa-fw text-muted"></i>
+    {{ page.title }}
+    <span class="lead text-muted ps-2">{{ site.data.posts | where: "tags", page.title | size }}</span>
+  </h1>
+  <ul class="content ps-0">
+    {% assign tag_posts = site.data.posts | where: "tags", page.title %}
+    {% for post in tag_posts %}
+    <li class="d-flex justify-content-between px-md-3">
+      <a href="{{ post.link | relative_url }}">{{ post.title }}</a>
+      <span class="dash flex-grow-1"></span>
+      <span class="text-muted small text-nowrap">{{ post.pubDate }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

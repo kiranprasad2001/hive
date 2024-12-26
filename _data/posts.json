@@ -1,0 +1,401 @@
+[
+  {
+    "title": "The missing pieces in Filipino NLP in the age of LLMs",
+    "link": "https://ljvmiranda921.github.io/notebook/2024/12/17/filipino-llm/",
+    "pubDate": "2024-12-17",
+    "excerpt": "<summary type=\"html\">The rise of LLMs is forcing us to rethink Filipino NLP. But there&#39;s still a ton of work to do&amp;mdash;just not the stuff you might think. Here&#39;s my take on what&#39;s worth doing, what&#39;s a waste of time, and where Filipino NLP research should be heading.</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "tagalog",
+      "filipino",
+      "nlp",
+      "llm"
+    ]
+  },
+  {
+    "title": "Guest lecture @ DLSU Manila: Artisanal Filipino NLP Resources in the time of Large Language Models",
+    "link": "https://ljvmiranda921.github.io/notebook/2024/07/02/talk-dlsu/",
+    "pubDate": "2024-07-02",
+    "excerpt": "<summary type=\"html\">Last month, I had another guest lecture, this time in Dr. Charibeth Cheng&#39;s graduate class in DLSU. Here, I talked about the craft of building small-scale yet effective NLP models for Filipino in the face of today&#39;s large language models.</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "tagalog",
+      "nlp",
+      "llm",
+      "dlsu",
+      "calamancy",
+      "spacy",
+      "natural language processing",
+      "tagalog nlp"
+    ]
+  },
+  {
+    "title": "A lexical view of contrast pairs in preference datasets",
+    "link": "https://ljvmiranda921.github.io/notebook/2024/03/12/contrast-pairs/",
+    "pubDate": "2024-03-12",
+    "excerpt": "<summary type=\"html\">Can we spot differences between preference pairs just by looking at their word embeddings? In this blog post, I want to share my findings from examining lexical distances between chosen and rejected responses in preference datasets.</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "rlhf",
+      "preference data",
+      "llm",
+      "shp",
+      "openai",
+      "berkeley-nest"
+    ]
+  },
+  {
+    "title": "Guest lecture @ UNC Charlotte: Labeling with LLMs",
+    "link": "https://ljvmiranda921.github.io/notebook/2024/02/21/talk-unc-charlotte/",
+    "pubDate": "2024-02-21",
+    "excerpt": "<summary type=\"html\">A few weeks ago, I held a guest lecture at University of North Carolina Charlotte on how we can use large language models for annotation in the context of argument mining and fact verification. Here are the contents of that lecture in blog post format.</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "argument mining",
+      "fake news",
+      "llm",
+      "evaluation",
+      "annotation",
+      "prodigy",
+      "ai",
+      "large language models"
+    ]
+  },
+  {
+    "title": "How to set up Git and SSH when your org has enforced SAML SSO",
+    "link": "https://ljvmiranda921.github.io/notebook/2023/11/28/git-ssh-saml/",
+    "pubDate": "2023-11-28",
+    "excerpt": "<summary type=\"html\">While cloning a repository from an organization, I encountered an SSH error that I&#39;ve never seen before. It&#39;s something related to SAML SSO. I managed to solve it, so I&#39;m documenting the steps here. Hope it helps you too!</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "git",
+      "github",
+      "saml",
+      "sso",
+      "ssh",
+      "how to"
+    ]
+  },
+  {
+    "title": "Visualizing Tagalog NER embeddings",
+    "link": "https://ljvmiranda921.github.io/notebook/2023/11/20/tagalog-ner-embeddings/",
+    "pubDate": "2023-11-20",
+    "excerpt": "<summary type=\"html\">Lately, I&#39;ve been thinking a lot about visualizing datasets, and good old-fashioned t-SNE embeddings came to mind. In this blog post, indulge me as I examine a &quot;data map&quot; of our Tagalog NER dataset.</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "nlp",
+      "tagalog",
+      "low-resource languages",
+      "prodigy",
+      "natural language processing",
+      "machine learning"
+    ]
+  },
+  {
+    "title": "Do large language models work on Tagalog?",
+    "link": "https://ljvmiranda921.github.io/notebook/2023/08/04/llm-tagalog/",
+    "pubDate": "2023-08-04",
+    "excerpt": "<summary type=\"html\">Large language models showed promise on structured prediction tasks like named entity recognition and text categorization. But how well do they perform when presented with Tagalog text? In this blog post, I&#39;ll share some of my preliminary benchmarking results.</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "nlp",
+      "tagalog",
+      "low-resource languages",
+      "prodigy",
+      "natural language processing",
+      "machine learning"
+    ]
+  },
+  {
+    "title": "calamanCy: NLP pipelines for Tagalog",
+    "link": "https://ljvmiranda921.github.io/projects/2023/08/01/calamancy/",
+    "pubDate": "2023-08-01",
+    "excerpt": "<summary type=\"html\">I am excited to introduce calamanCy, an open-source toolkit for constructing natural language processing pipelines for Tagalog. Read this blog post to learn more! You can also find calamanCy on Github: https://github.com/ljvmiranda921/calamanCy</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "projects",
+      "nlp",
+      "language technology",
+      "natural language processing",
+      "tagalog",
+      "low resource",
+      "spacy",
+      "machine learning"
+    ]
+  },
+  {
+    "title": "Some thoughts on the annotation process",
+    "link": "https://ljvmiranda921.github.io/notebook/2023/07/03/devlog-calamancy/",
+    "pubDate": "2023-07-03",
+    "excerpt": "<summary type=\"html\">A development log on the calamanCy project and the Tagalog NLP pipeline. The tl;dr: we just finished re-annotating the dataset. I also want to share my learnings during the annotation process. Access the corpus at https://huggingface.co/datasets/ljvmiranda921/tlunified-ner</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "nlp",
+      "tagalog",
+      "low-resource languages",
+      "prodigy",
+      "natural language processing",
+      "machine learning"
+    ]
+  },
+  {
+    "title": "Study notes on parameter-efficient finetuning techniques",
+    "link": "https://ljvmiranda921.github.io/notebook/2023/05/01/peft/",
+    "pubDate": "2023-05-01",
+    "excerpt": "<summary type=\"html\">Traditional finetuning involves training the parameters of a large language model with a shallower domain-specific network. However, this approach requires a large compute budget unavailable to most organizations. In this blog post, I&#39;ll go through differrent parameter-efficient finetuning techniques I personally like.</summary>",
+    "author": "<name>LJ MIRANDA</name>",
+    "tags": [
+      "notebook",
+      "efficient nlp",
+      "nlp",
+      "peft",
+      "parameter efficient finetuning",
+      "gpt",
+      "llm",
+      "large language models"
+    ]
+  },
+  {
+    "title": "Differential Sums?!?!?!?!?!",
+    "link": "https://rajeevatla.com/misc/2021/06/02/Differential-Sums.html",
+    "pubDate": "2021-06-02",
+    "excerpt": "<summary type=\"html\">We would like to find</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "uNeXpEcTeD uSeS oF mAtH",
+    "link": "https://rajeevatla.com/misc/2021/05/06/An-UnExPeCtEd-Use-of-Calculus.html",
+    "pubDate": "2021-05-06",
+    "excerpt": "<summary type=\"html\">Suppose we want to find</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "Why You Should Stop Calling People Smart",
+    "link": "https://rajeevatla.com/misc/2021/04/01/Being-Called-Smart.html",
+    "pubDate": "2021-04-01",
+    "excerpt": "<summary type=\"html\">Note: this isn’t a traditional physics post. If you want more of that, come back later or read some of my older posts.</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "Using Lots of Geo in Physics",
+    "link": "https://rajeevatla.com/misc/2021/02/04/Physics-Cup.html",
+    "pubDate": "2021-02-04",
+    "excerpt": "<summary type=\"html\">Physics Cup 2012 Problem 10: A thin rod of mass $m$ and length $L$ is placed into a corner formed by a vertical wall and a horizontal floor so that the rod forms an angle $\\alpha$ with the floor and is perpendicular to the line where the floor and the wall meet. The static coefficient of friction of the rod against the wall and against the floor is $\\mu=\\tan\\beta$, which is not large enough for keeping the current position – as long as the only forces applied to the rod are the normal and and friction forces applied to its endpoints, and the gravity force $mg$ applied to its centre. What is the minimal additional force $F$ needed for maintaining the current position of the rod (assuming that its direction and application point are optimal)? Express your answer in terms of $m$, $g$, $\\alpha$, and $\\beta$.</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "On Symmetry",
+    "link": "https://rajeevatla.com/misc/2021/01/07/On-Symmetry.html",
+    "pubDate": "2021-01-07",
+    "excerpt": "<summary type=\"html\">Apparently symmetry really helps in physics problems. I was too close-minded to realize this lol. Sometimes it stares at you like ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°), and sometimes its more discreet like ┬┴┬┴┤(･_├┬┴┬┴. Sometimes, its more dependent on your own training materials. For example, consider this problem:</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "A Nice(ish) Eigenvalue Problem",
+    "link": "https://rajeevatla.com/misc/2021/01/02/Turning-an-EM-Problem-Into-An-Eigenvalue-Problem.html",
+    "pubDate": "2021-01-02",
+    "excerpt": "<summary type=\"html\">So I came across a problem when I was doing some EM that I want to share with you today.</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "USAPhO 2012 A2",
+    "link": "https://rajeevatla.com/misc/2020/12/03/USAPhO-Thermo-Problem.html",
+    "pubDate": "2020-12-03",
+    "excerpt": "<summary type=\"html\">We’re gonna do another one of my favorites today: USAPhO 2012 A2!.</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "An Attempt at a Graduation Speech",
+    "link": "https://rajeevatla.com/misc/2020/11/07/Graduation-Speech.html",
+    "pubDate": "2020-11-07",
+    "excerpt": "<summary type=\"html\">I’ve realized that I’ll probably never get to give a graduation speech, so here it is: a little early though.</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "Science Bowl and Giving Back",
+    "link": "https://rajeevatla.com/misc/2020/11/07/Science-Bowl.html",
+    "pubDate": "2020-11-07",
+    "excerpt": "<summary type=\"html\">Science Bowl has always been a part of my life. It’s been there for me through life’s great ups and downs, the twists and turns, the random times I feel like a poet and defy grammar. It’s always been a vent for my anxiety. I decided to apply to be captain and got in a while back and everything changed.</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "Rotating Special Relativity",
+    "link": "https://rajeevatla.com/misc/2020/11/05/Special-Relativity-Problem.html",
+    "pubDate": "2020-11-05",
+    "excerpt": "<summary type=\"html\">When in the course of doing physics problems (man, I should really stop listening to Hamilton), you find yourself at the intersection of what seems to be two different fields. For example, consider the following problem, at the intersection of special relativity and oribital mechanics.</summary>",
+    "author": "<name>Rajeev Atla</name>",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "title": "Adaptive Start G-code for Dual Extruder Printers with Cura",
+    "link": "https://ansonliu.com/2024/10/cura-adaptive-dual-extruder-start-gcode/",
+    "pubDate": "2024-10-08",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">Choosing a reliable start G-code that primes a dual extruder printer is difficult. This post explains the different extruder prime techniques and how my [adaptive priming start G-code](https://github.com/ansonl/DXU/blob/master/AL-DXUv2/start-end-gcode/cura-adaptive-start-gcode-dual-extruder.gcode) for Cura incorporates these techniques for dual nozzle printers.</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "development",
+      "3d printing",
+      "ultimaker",
+      "cura"
+    ]
+  },
+  {
+    "title": "Manually Resuming a Failed Print at a Specific Layer",
+    "link": "https://ansonliu.com/2024/07/manually-resuming-print-at-layer/",
+    "pubDate": "2024-07-31",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">Easily resume a failed print at a specific layer by trimming the start of your G-code file and adding the below resume start G-code. `M140 Sxx ; Start heating bed` `G28` `M109 T0 Sxxx ; Heating to PLA temp` `G92 Exxx ; Set extruder position` `G0 Zxx.xx ; Set Z position` `G1 F1500 Exxx` More detailed instructions are in the full post.</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "development",
+      "3d printing",
+      "cura"
+    ]
+  },
+  {
+    "title": "Creality K1 series 3D Printer Cura Start G-code",
+    "link": "https://ansonliu.com/2024/06/creality-k1-cura-start-gcode/",
+    "pubDate": "2024-06-12",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">Automatically set the correct extruder and bed temperature to match the printed material when printing with the Creality K1 series 3D printer in Cura with the start G-code below. `M140 S0` `M104 S0` `START_PRINT EXTRUDER_TEMP={material_print_temperature} BED_TEMP={material_bed_temperature}`</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "development",
+      "3d printing",
+      "creality",
+      "cura"
+    ]
+  },
+  {
+    "title": "Toyota Corolla Cross Hybrid Spare Tire Upgrade",
+    "link": "https://ansonliu.com/2024/05/corolla-cross-hybrid-spare-wheel-tire/",
+    "pubDate": "2024-05-23",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">Add a spare wheel and jack under the cargo area of your Toyota Corolla Cross Hybrid (CCH) as the overlanding gods intended. ![corolla cross hybrid tire kit](/wp-content/uploads/2024/05/toyota-corolla-cross-hybrid-tire-kit.webp) The hybrid AWD model of the Corolla Cross does not include a spare wheel or jack from the factory so we can add the spare ourselves. I made a tire mount that fits over the power cable lever and elevates the spare tire to avoid stressing the cable. [🛒 *Get the Toyota Corolla Cross Hybrid Spare Tire Mount*](/store/toyota-corolla-cross-hybrid-spare-wheel-holder/) Spare tire mount [assembly notes](/reference/toyota-corolla-cross-hybrid-spare-wheel-holder-directions/). ![corolla cross hybrid spare tire mount solution](/wp-content/uploads/2024/05/toyota-corolla-cross-spare-tire-mount-storage.webp) This post covers all things you need to find and mount a spare wheel in the Toyota Corolla Cross Hybrid AWD.</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "auto",
+      "toyota corolla cross",
+      "corolla cross hybrid",
+      "spare tire",
+      "spare wheel"
+    ]
+  },
+  {
+    "title": "Ultimaker S3/S5/S7 3D Printer PrusaSlicer Profile",
+    "link": "https://ansonliu.com/2024/04/ultimaker-s3-s5-s7-prusaslicer-profile/",
+    "pubDate": "2024-04-15",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">![Prusaslicer to ultimaker](/wp-content/uploads/2024/04/prusaslicer-ultimaker.webp) You may need [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) to slice a model to print on your Ultimaker S3/S5/S7 3D printer for a multitude of reasons: - Slicing error - PrusaSlicer specific surface patterns - Different prime tower shapes - Experimentation The Ultimaker S-line printers usually refuse to print model G-code sliced with PrusaSlicer and non-Cura slicers by default due to a special header requirement and custom homing/leveling routine. ![Prusaslicer profile supported ultimaker printers](/wp-content/uploads/2024/04/prusaslicer-ultimaker-printers.webp) I added a [PrusaSlicer Ultimaker printer profile](https://github.com/prusa3d/PrusaSlicer-settings/tree/master/live/Ultimaker) that generates the headers and start G-code needed by the Ultimaker S-line printers so that you can easily slice and print to your Ultimaker S-line printer with PrusaSlicer.</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "development",
+      "3d printing",
+      "ultimaker",
+      "firmware",
+      "prusaslicer"
+    ]
+  },
+  {
+    "title": "Ford Escape Hybrid (2005-2007, 1st generation) Plug-in Cross-Charge Jumpstart",
+    "link": "https://ansonliu.com/2024/03/1st-gen-ford-escape-hybrid-plug-in-manual-jumpstart/",
+    "pubDate": "2024-03-30",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">A 1st generation (2005-2007) Ford Escape Hybrid with a &quot;dead&quot; 330V high voltage (HV) battery can be manually charged from wall outlet with the use of a 12V charger when the voltage has dropped extremely low. When the Ford Escape Hybrid is not driven for long periods of time, the vehicle&#39;s 330V HV nickel metal hydride (NiMH) battery loses charge and the decrease in voltage may make the vehicle unable to start. ![ford escape hybrid jump start button](/wp-content/uploads/2024/03/ford-escape-hybrid-jump-start-button-zoomed.jpg) Look, we know why you&#39;re reading this. Let&#39;s get your Ford Escape Hybrid moving again!</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "Development",
+      "jumpstart",
+      "plug-in",
+      "ford",
+      "escape",
+      "hybrid"
+    ]
+  },
+  {
+    "title": "Ultimaker S-line 3D Printer Firmware Bed Leveling Triggers a Soft Reset Bug",
+    "link": "https://ansonliu.com/2024/03/ultimaker-gcode-footprint-halt/",
+    "pubDate": "2024-03-02",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">The Ultimaker S-line printer has an optimized bed leveling procedure that speeds up the preparation process to get printing. This bed leveling procedure can trigger a shutdown and require a soft-reset when a sufficiently complex model or G-code without Cura style layer indicators is printed. ![Ultimaker system error](/wp-content/uploads/2024/02/UM-ER998.jpg) Let&#39;s find out what is causing this error and possible solutions for both Ultimaker and users.</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "development",
+      "3d printing",
+      "ultimaker",
+      "firmware",
+      "python3"
+    ]
+  },
+  {
+    "title": "Adding Blender Color Groups Support for Printables 3D Model Previews",
+    "link": "https://ansonliu.com/2023/12/adding-blender-color-groups-support-for-printables/",
+    "pubDate": "2023-12-19",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">[Printables](https://www.printables.com/) is a 3D model sharing site with a unique 3D model previewer. This preview can utilize color data embedded in the 3D file — but only if you assign colors in specific software. ![Maryland MD before color and after color](/wp-content/uploads/2023/12/MD-before-after.webp) Let&#39;s figure out how the Printables 3D previewer gets color info from 3MF files and get [Blender to export models](https://github.com/Ghostkeeper/Blender3mfFormat/pull/58) with the needed color info! ![blender 3mf addon with color groups](/wp-content/uploads/2023/12/blender-3mf-addon-color-groups.webp)</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "development",
+      "3d printing",
+      "prusa",
+      "printables",
+      "blender"
+    ]
+  },
+  {
+    "title": "SUNLU T3 Marlin Configuration and Controller Board Pictures",
+    "link": "https://ansonliu.com/2023/08/sunlu-t3-marlin-configuration-electronics/",
+    "pubDate": "2023-08-07",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">SUNLU T3 printer Marlin 2 configuration can be downloaded [here](https://github.com/MarlinFirmware/Configurations/tree/import-2.1.x/config/examples/Sunlu/T3). This configuration fixes a bug where the extruder cooling fan would only turn on when the motors were active and not when the extruder was hot. This could lead to heat creep and a clogged hotend if the hotend heater was left on and the motors were off. ![sunlu t3 bottom](/wp-content/uploads/2023/08/sunlu-t3-motherboard.JPG)</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "travel",
+      "3d printing",
+      "sunlu t3"
+    ]
+  },
+  {
+    "title": "Think Twice Before Booking Through SuperTravel OTA",
+    "link": "https://ansonliu.com/2023/05/supertravel-booking-ota/",
+    "pubDate": "2023-05-22",
+    "excerpt": "<summary lang=\"en-US\"\n  type=\"html\">OTAs can save money when traveling but sometimes you may not get the reservation you wanted. SuperTravel OTA booked a nonexistent reservation and used the payment info on another OTA without my permission. If you do take the chance booking travel with an OTA, make sure to pay with a credit card. ![Google knowledge panel for hotels with OTAs](/wp-content/uploads/2023/05/google-hotel-ota-knowledge-panel.gif)</summary>",
+    "author": "<name lang=\"en-US\">Anson Liu</name>",
+    "tags": [
+      "travel",
+      "travel ota",
+      "third party travel booking",
+      "supertravel",
+      "booking.com"
+    ]
+  }
+]

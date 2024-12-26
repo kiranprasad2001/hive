@@ -1,0 +1,14 @@
+#blogs:
+#  - https://qiubaiying.github.io/
+#  - https://mmistakes.github.io/minimal-mistakes/
+#  - https://blog.getbootstrap.com
+  # Add remaining URLs from the uploaded file here.
+
+blogs:
+  - rss: https://ljvmiranda921.github.io/feed.xml
+
+  - rss: https://rajeevatla.com/feed.xml
+
+  - rss: https://ansonliu.com/atom.xml
+
+  # ... add the rest of your blogs ...

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Aggregated Blogs</h1>
+<ul>
+    {% assign posts = site.data.posts | sort: 'pubDate' | reverse %}
+    {% for post in posts %}
+        <li>
+            <a href="{{ post.link }}">{{ post.title }}</a> - {{ post.pubDate }}
+            {% if post.tags %}
+                <span>Tags: {{ post.tags | join: ', ' }}</span>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,32 @@
+name: Update RSS Feeds
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install dependencies
+        run: bundle install || true
+
+      - name: Fetch RSS Feeds
+        run: ruby _includes/rss_fetcher.rb
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add _data/posts.json
+          git commit -m "Updated RSS feeds"
+          git push

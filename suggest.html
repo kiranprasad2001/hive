@@ -1,0 +1,44 @@
+---
+layout: page
+title: Suggest a Blog
+permalink: /suggest/
+---
+
+<h2>Suggest a New Blog Feed</h2>
+<p>
+    If you know a blog that you'd like us to include, please suggest it by filling out the form below.
+    Your suggestion will create a GitHub Issue that we can review and merge.
+</p>
+
+<form
+    action="https://github.com/kiranprasad2001/hive/issues/new"
+    method="get"
+    target="_blank"
+>
+    <input type="hidden" name="title" value="Blog Suggestion: " />
+    <input
+        type="hidden"
+        name="body"
+        value="### Blog Feed URL: \n\n<URL>\n\n### Description:\n\n<DESCRIPTION>"
+    />
+    <label for="blog-url">Blog Feed URL:</label>
+    <input
+        type="url"
+        id="blog-url"
+        name="blog-url"
+        placeholder="https://<username>.github.io/feed.xml"
+        required
+        style="width: 100%; padding: 8px; margin: 10px 0;"
+    />
+    <label for="blog-description">Short Description (Optional):</label>
+    <textarea
+        id="blog-description"
+        name="blog-description"
+        placeholder="Tell us about the blog (e.g., what it covers, its author, etc.)"
+        rows="3"
+        style="width: 100%; padding: 8px; margin-bottom: 10px;"
+    ></textarea>
+    <button type="submit" style="padding: 10px 15px; background-color: #007bff; color: #fff; border: none; cursor: pointer;">
+        Submit Suggestion
+    </button>
+</form>

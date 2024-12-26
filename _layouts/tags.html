@@ -1,0 +1,17 @@
+---
+layout: page
+# All the Tags of posts.
+---
+
+<div id="tags" class="d-flex flex-wrap mx-xl-2">
+  {% assign tags = site.data.posts | map: 'tags' | flatten | uniq | sort_natural %}
+
+  {% for tag in tags %}
+    <div>
+      <a class="tag" href="{{ tag | slugify | url_encode | prepend: '/tags/' | prepend: site.baseurl | append: '/' | relative_url }}">
+        {{ tag -}}
+        <span class="text-muted">{{ site.tags[tag].size }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>
