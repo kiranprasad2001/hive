@@ -1,9 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-# theme: jekyll-theme-chirpy
-
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -31,7 +29,7 @@ github:
   username: kiranprasad2001 # change to your GitHub username
 
 twitter:
-  username: tkiranprasad2001 # change to your Twitter username
+  username: kiranprasad2001 # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -101,7 +99,7 @@ theme_mode: # [light | dark]
 cdn: "/assets"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "/commons/avatar.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -223,6 +221,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - assets/feed.xml
+  - node_modules
 
 jekyll-archives:
   enabled: [tags]

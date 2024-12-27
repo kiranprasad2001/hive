@@ -6,6 +6,10 @@ gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
 gem "jekyll-feed"
+gem "jekyll-paginate"
+gem "csv"
+gem "base64"
+gem "logger"
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
